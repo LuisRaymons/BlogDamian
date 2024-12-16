@@ -15,7 +15,7 @@ use App\Http\Controllers\PrincipalController;
 */
 
 Route::get('/', [PrincipalController::class, 'home']);
-Route::get('/Servicios', [PrincipalController::class, 'services']);
-Route::get('/Acerca', [PrincipalController::class, 'about']);
-Route::get('/Portafolio', [PrincipalController::class, 'portfolio']);
-Route::get('/Contacto', [PrincipalController::class, 'contact']);
+Route::get('/servicios', [PrincipalController::class, 'services']);
+Route::get('/acerca', [PrincipalController::class, 'about']);
+Route::get('/portafolio', [PrincipalController::class, 'portfolio']);
+Route::get('/contacto', [PrincipalController::class, 'contact']);

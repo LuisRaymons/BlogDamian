@@ -62,12 +62,48 @@
         <h3 style="color:#ffffff;font-size: 62px;">Servicios</h3>
         <div class="col-8" id="img4principal">
         </div>
-        <div class="col-4">
+        <div class="col-4" style="color:#ffffff;font-size: 20px;">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur necessitatibus eos odio dolore est nobis sed minima, 
             rerum tempora fuga iure, ducimus commodi pariatur! Minima, aliquam? Aliquam, vitae dolore! Ipsa?
         </div>
     </div>
 </div>
+
+<div class="container">
+    <div class="row" style="margin-top:1.5%;">
+        <div class="col-4" style="color:#ffffff;font-size: 20px;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur necessitatibus eos odio dolore est nobis sed minima, 
+            rerum tempora fuga iure, ducimus commodi pariatur! Minima, aliquam? Aliquam, vitae dolore! Ipsa?
+        </div>
+        <div class="col-8" id="img5principal">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-8" id="img6principal">
+        </div>
+        <div class="col-4" style="color:#ffffff;font-size: 20px;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur necessitatibus eos odio dolore est nobis sed minima, 
+            rerum tempora fuga iure, ducimus commodi pariatur! Minima, aliquam? Aliquam, vitae dolore! Ipsa?
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row" style="margin-top:1.5%;">
+        <div class="col-4" style="color:#ffffff;font-size: 20px;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur necessitatibus eos odio dolore est nobis sed minima, 
+            rerum tempora fuga iure, ducimus commodi pariatur! Minima, aliquam? Aliquam, vitae dolore! Ipsa?
+        </div>
+        <div class="col-8" id="img7principal">
+        </div>
+    </div>
+</div>
+
+
+
 
 
 <style>
@@ -129,6 +165,33 @@
         height: 100vh;
         background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
             url("img/img/_MG_7034.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #img5principal{
+        width: 65%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+            url("img/img/LRM_20240809_182355.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #img6principal{
+        width: 65%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+            url("img/img/IMG_2143.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #img7principal{
+        width: 65%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+            url("img/img/DJI_0747.jpg");
         background-size: cover;
         background-position: center;
         background-attachment: fixed;

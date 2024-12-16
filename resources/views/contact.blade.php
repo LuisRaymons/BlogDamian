@@ -1,7 +1,159 @@
-@extends('master')
-@section('title','Home Page')
-@section('content')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icons/logoDamian.ico"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Contacto</title>
+</head>
+<body>
+<div class="col-8" id="img4principal">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary" id="nav-menu">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">
+                        <img src="img/icons/logoDamian.ico" id="imgicondamian"/>
+                    </a>                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="acerca">Acerca de</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="Servicios" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu" id="servicedetalle">
+                                <li><a class="dropdown-item" href="#">Fotografía y video aéreo</a></li>
+                                <li><a class="dropdown-item" href="#">Fotografía para retrato</a></li>
+                                <li><a class="dropdown-item" href="#">Fotografía para cumpleaños</a></li>
+                                <li><a class="dropdown-item" href="#">Fotografía para bodas</a></li>
+                                <li><a class="dropdown-item" href="#">Fotografía para Quinceñera</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+    <h1 style="color:#ffffff; font-size:30vh; text-align:center; padding-top:10%;">Contactanos</h1>
+</div>
+<div class="container" style="margin-top: 5%;">
+    <div class="row">
+        <div class="col">
+            <div class="card" style="background-color:black; color:white;">
+                <div class="card-body" style="text-align:center;">
+                    <i class="fa-solid fa-envelope fa-2xl" style="margin-bottom:10%;"></i>
+                    <h5 class="card-title">Correo</h5>
+                    <p class="card-text">damian@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="background-color:black; color:white;">
+                <div class="card-body" style="text-align:center;">
+                <i class="fa-solid fa-phone-volume fa-2xl" style="margin-bottom:10%;"></i>
+                    <h5 class="card-title">Telefono</h5>
+                    <p class="card-text">3319640683</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="background-color:black; color:white;">
+                <div class="card-body" style="text-align:center;">
+                    <i class="fa-solid fa-map-location-dot fa-2xl" style="margin-bottom:10%;"></i>
+                    <h5 class="card-title">Ubicacion</h5>
+                    <p class="card-text">Grand Conference Hall 881 7th Ave New York, NY</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<h1 style="color:white;">Hello World</h1>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <form action="" class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label" style="color:#ffffff;">Nombre</label>
+                    <input type="text" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label" style="color:#ffffff;">Apellidos</label>
+                    <input type="text" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-12">
+                    <label for="inputEmail4" class="form-label" style="color:#ffffff;">Correo</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>   
+                <div class="col-md-12">
+                    <label for="inputEmail4" class="form-label" style="color:#ffffff;">Telefono</label>
+                    <input type="phone" class="form-control" id="inputEmail4">
+                </div>                 
+                <div class="col-md-12">
+                    <label for="inputPassword4" class="form-label" style="color:#ffffff;">Comentario</label>
+                    <textarea class="form-control" name="commentarioname" id="commentarioname"  rows="10"></textarea>
+                </div>
 
-@endsection
+                <button type="button" class="btn btn-outline-primary btn-lg">Enviar mensaje</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+<style>
+    #img4principal{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+            url("img/img/_MG_7034.jpg");
+        width: 100%;
+        height: 90vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #navbarSupportedContent{
+        margin-left: 50%;
+    }
+    body{
+        background-color:#060709;
+    }
+    #nav-menu{
+        background-color:#060709;
+        color:white;
+    }
+    #servicedetalle{
+        background-color:#212529;
+        color:white;
+    }
+    #servicedetalle > li > a{
+        background-color:#212529;
+        color:white;
+    }
+    #servicedetalle > li > a:hover{
+        background-color:#212529;
+        color:#d2d2d2;
+    }
+    #imgicondamian{
+        width: 120px;
+        height: 40px;
+    }
+</style>
+
+<script>
+    $("#nav-menu").css("background-color","transparent");
+</script>

@@ -1,7 +1,8 @@
 <html>
 <head>
     <link rel="icon" href="img/icons/logoDamian.ico"> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>
         @yield('title')
@@ -9,8 +10,9 @@
   
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="Container-body">
         <div class="row">
+            <!-- <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary" id="nav-menu"> -->
             <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary" id="nav-menu">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/">
@@ -25,7 +27,7 @@
                             <a class="nav-link active" aria-current="page" href="/">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Acerca">Acerca de</a>
+                            <a class="nav-link" href="acerca">Acerca de</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="Servicios" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,6 +40,9 @@
                                 <li><a class="dropdown-item" href="#">Fotografía para bodas</a></li>
                                 <li><a class="dropdown-item" href="#">Fotografía para Quinceñera</a></li>
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto">Contacto</a>
                         </li>
                     </ul>
                     </div>
@@ -52,7 +57,7 @@
 
 <style>
     #navbarSupportedContent{
-        margin-left: 60%;
+        margin-left: 50%;
     }
     body{
         background-color:#060709;
