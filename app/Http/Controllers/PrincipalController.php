@@ -25,4 +25,8 @@ class PrincipalController extends Controller
     public function contact(){
         return view('contact');
     }
+
+    public function plans(){
+        return view('planes');
+    }
 }

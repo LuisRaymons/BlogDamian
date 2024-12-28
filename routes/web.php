@@ -19,3 +19,4 @@ Route::get('/servicios', [PrincipalController::class, 'services']);
 Route::get('/acerca', [PrincipalController::class, 'about']);
 Route::get('/portafolio', [PrincipalController::class, 'portfolio']);
 Route::get('/contacto', [PrincipalController::class, 'contact']);
+Route::get('/planes', [PrincipalController::class, 'plans']);

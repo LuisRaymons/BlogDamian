@@ -1,0 +1,86 @@
+#containerprincipalimagen{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+        url("../img/img/DJI_0587-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#nameprincipal{
+    color: #ffffff;
+    font-size: 72px;
+    line-height: 1em;
+}
+.titulo2{
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 1em;
+}
+.p1{
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 1em;
+}
+#imgboda1:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+#imgboda2:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+#img1principal{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+        url("../img/img/DJI_0747.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#img2principal{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+        url("../img/img/IMG_0706.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#img3principal{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+        url("../img/img/IMG_1821-Edit-Edit.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#img4principal{
+    width: 65%;
+    height: 100vh;
+    background-image: url("../img/img/_MG_7034.jpg");
+    background-repeat: no-repeat;
+    background-size: 55.5% 90%;
+    background-attachment: fixed;
+    
+}
+#img5principal{
+    height: 100vh;
+    background-image: url("../img/img/download.jpeg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+}
+#img6principal{
+    height: 100vh;
+    background-image: url("../img/img/IMG_2143.jpg");
+    background-repeat: no-repeat;
+    background-size: 55.5% 90%;
+    background-attachment: fixed;
+    background-position: left;   
+}
+#img7principal{
+    width: 65%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+        url("../img/img/DJI_0747.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

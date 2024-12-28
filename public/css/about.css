@@ -1,0 +1,87 @@
+#img4principal{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+        url("../img/img/IMG_0710.jpg");
+    width: 100%;
+    height: 180vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#navbarSupportedContent{
+    margin-left: 50%;
+}
+body{
+    background-color:#060709;
+}
+#nav-menu{
+    background-color:#060709;
+    color:white;
+}
+#servicedetalle{
+    background-color:#212529;
+    color:white;
+}
+#servicedetalle > li > a{
+    background-color:#212529;
+    color:white;
+}
+#servicedetalle > li > a:hover{
+    background-color:#212529;
+    color:#d2d2d2;
+}
+#titleprincipal{
+    color:#ffffff; 
+    font-size:10vh; 
+    text-align:center; 
+    padding-top:10%;
+    padding-bottom: 5%;
+}
+#imgicondamian{
+    width: 120px;
+    height: 40px;
+}
+
+#imgprincipal{
+    width: 600px;
+    height: 700px;
+}
+p,h5{
+    color: #ffffff;
+}
+#title-proyect{
+   color: #ffffff; 
+   font-size:10vh; 
+   margin-top: 10%;
+}
+
+.carouselabout{
+    height: 100vh;
+}
+
+/*Slider*/
+div#slider { overflow: hidden; } /* las imágenes no van a salir del márgen de la pantalla*/
+div#slider figure img { width: 10%; margin-right: 5px; float: left; }
+
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 15s slidy infinite; /*el movimiento se va a mantener de forma indefinida -infinito-*/
+}
+
+
+/*esta parte del código define el movimiento de las imágenes a la izquierda*/
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
