@@ -27,10 +27,10 @@
             </p>
         </div>
         <div class="col">
-            <img src="img/img/_MG_6792.jpg" alt="No se encontro la imagen" width="90%" height="90%" id="imgboda1"/>
+            <img src="https://drive.google.com/thumbnail?id=19MB1usrteXbyUem1MTwcvMjjhfVOI-qf" alt="No se encontro la imagen" width="90%" height="90%" id="imgboda1"/>
         </div>
         <div class="col">
-            <img src="img/img/_MG_6798.jpg" alt="No se encontro la imagen" width="90%"  height="90%" id="imgboda2"/>
+            <img src="https://drive.google.com/thumbnail?id=1DbNekU4t4GLbHZ056Sn0_36zFDNOg7ul" alt="No se encontro la imagen" width="90%"  height="90%" id="imgboda2"/>
         </div> 
     </div>
 

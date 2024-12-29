@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/icons/logoDamian.ico"> 
+    <link rel="icon" href="https://drive.google.com/thumbnail?id=1ixS5X6Y2Zvu0owjucv04X33-KDXziwE4"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -16,7 +16,7 @@
         <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary" id="nav-menu">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="/">
-                            <img src="img/icons/logoDamian.ico" id="imgicondamian"/>
+                            <img src="https://drive.google.com/thumbnail?id=1ixS5X6Y2Zvu0owjucv04X33-KDXziwE4" id="imgicondamian"/>
                         </a>                    
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -100,9 +100,6 @@
         </div>
     </div>
 
-    
-
-
     @include('footer')
 </div>
 
@@ -113,8 +110,7 @@
 
 <style>
       #img4principal{
-        background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
-            url("img/img/_MG_7034.jpg");
+        background-image: url("https://drive.google.com/thumbnail?id=1RB5XUnlpkqXm85qqguk0LAI6fwM3zWWp");
         width: 100%;
         height: 90vh;
         background-size: cover;

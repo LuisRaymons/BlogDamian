@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/icons/logoDamian.ico"> 
+    <link rel="icon" href="https://drive.google.com/thumbnail?id=1ixS5X6Y2Zvu0owjucv04X33-KDXziwE4"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
     <link rel="stylesheet" href="../css/about.css">
@@ -18,7 +18,7 @@
     <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary" id="nav-menu">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/">
-                        <img src="img/icons/logoDamian.ico" id="imgicondamian"/>
+                        <img src="https://drive.google.com/thumbnail?id=1ixS5X6Y2Zvu0owjucv04X33-KDXziwE4" id="imgicondamian"/>
                     </a>                    
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -63,7 +63,7 @@
                 </p>
             </div>
             <div class="col">
-                <img src="img/img/IMG_1299-2-Edit.jpg" alt="No se encontro la imagen" id="imgprincipal">
+                <img src="https://drive.google.com/thumbnail?id=1FRTr9bIeYzB7jR0PClagC_-bj-Fvzrcy" alt="No se encontro la imagen" id="imgprincipal">
             </div>
         </div>
 
@@ -71,12 +71,12 @@
             <h4 id="title-proyect">Nuestros proyectos</h4>
             <div id="slider">
                     <figure>
-                        <img src="img/img/IMG_1282.jpg" alt="" class="carouselabout">
-                        <img src="img/img/IMG_0439-2.jpg" alt="" class="carouselabout">
-                        <img src="img/img/IMG_6595.jpg" alt="" class="carouselabout">
-                        <img src="img/img/IMG_6557-2.jpg" alt="" class="carouselabout">
-                        <img src="img/img/IMG_1821-Edit-Edit.jpg" alt="" class="carouselabout">
-                        <img src="img/img/IMG_9628-Edit-2.jpg" alt="" class="carouselabout">
+                        <img src="https://drive.google.com/thumbnail?id=1lJxHpYLGBMHF28L3VfcvXtiZVlv49G5s" alt="" class="carouselabout">
+                        <img src="https://drive.google.com/thumbnail?id=1qCRqOtz_CP4_CFC5acGN9EJbovjYmwqx" alt="" class="carouselabout">
+                        <img src="https://drive.google.com/thumbnail?id=1l0nB_XcEW1UPzTwMQC38zC6HDMkO_E7V" alt="" class="carouselabout">
+                        <img src="https://drive.google.com/thumbnail?id=1sUhZYPQEqjamUDYpJbOGVOPctWU3C-Ok" alt="" class="carouselabout">
+                        <img src="https://drive.google.com/thumbnail?id=1bPeftnoaNJo2Nfsf4skD4VM-nZ9fUmgs" alt="" class="carouselabout">
+                        <img src="https://drive.google.com/thumbnail?id=1YxLMNocKgzmPp0NmURzmcxOeJkno3kxL" alt="" class="carouselabout">
                     </figure>
                 </div>
         </div>
