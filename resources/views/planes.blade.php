@@ -6,9 +6,10 @@
     <link rel="icon" href="https://drive.google.com/thumbnail?id=1ixS5X6Y2Zvu0owjucv04X33-KDXziwE4"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+    <link rel="stylesheet" href="../css/planes.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Promociones</title>
+    <title>Planes</title>
 </head>
 <body>
 <div class="col-8" id="img4principal">
@@ -103,62 +104,13 @@
     @include('footer')
 </div>
 
-
-
 </body>
 </html>
-
-<style>
-      #img4principal{
-        background-image: url("https://drive.google.com/thumbnail?id=1RB5XUnlpkqXm85qqguk0LAI6fwM3zWWp");
-        width: 100%;
-        height: 90vh;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-    }
-    #navbarSupportedContent{
-        margin-left: 50%;
-    }
-    body{
-        background-color:#060709;
-    }
-    #nav-menu{
-        background-color:#060709;
-        color:white;
-    }
-    #servicedetalle{
-        background-color:#212529;
-        color:white;
-    }
-    #servicedetalle > li > a{
-        background-color:#212529;
-        color:white;
-    }
-    #servicedetalle > li > a:hover{
-        background-color:#212529;
-        color:#d2d2d2;
-    }
-    #imgicondamian{
-        width: 120px;
-        height: 40px;
-    }
-
-    #promociones-card{
-        display: flex;
-        align-items: flex-end;
-    }
-    .elementor-icon-list-item{
-        list-style: none;
-    }
-    
-</style>
 
 <script>
     $("#nav-menu").css("background-color","transparent");
 
     function quieropaquete(tipopaquete){
-        console.log(tipopaquete);
         document.location.href = "";
         document.location.href = "contacto?paquete=" + tipopaquete;
     }

@@ -1,0 +1,26 @@
+    #navbarSupportedContent{
+        margin-left: 50%;
+    }
+    body{
+        background-color:#060709;
+    }
+    #nav-menu{
+        background-color:#060709;
+        color:white;
+    }
+    #servicedetalle{
+        background-color:#212529;
+        color:white;
+    }
+    #servicedetalle > li > a{
+        background-color:#212529;
+        color:white;
+    }
+    #servicedetalle > li > a:hover{
+        background-color:#212529;
+        color:#d2d2d2;
+    }
+    #imgicondamian{
+        width: 120px;
+        height: 40px;
+    }

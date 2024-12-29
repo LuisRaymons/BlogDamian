@@ -3,16 +3,16 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
 <link rel="stylesheet" href="../css/home.css">
 @stop
-@section('title','Home Page')
+@section('title','Fotografía Damian')
 @section('content')
 
 <div class="container" loading=”lazy” id="divprincipal">
     <div class="row">
         <div class="col">
             <h1 id="nameprincipal">Fotografía Damian</h1>
-            <button type="button" class="btn btn-outline-primary btn-lg">
-                <a href="acerca" style="text-decoration:none;">Mas acerca de mi</a>
-            </button>
+            <a href="acerca" class="btn btn-outline-primary btn-lg" style="text-decoration:none; margin-top:10%;">
+                Mas acerca de mi
+            </a>
         </div>
         <div class="col" id="containerprincipalimagen">
         </div>
@@ -83,8 +83,6 @@
             rerum tempora fuga iure, ducimus commodi pariatur! Minima, aliquam? Aliquam, vitae dolore! Ipsa?
         </div>
     </div>
-
-    
 
 </div>
 

@@ -4,6 +4,7 @@
     <meta name="viewport">
     <link rel="icon" href="https://drive.google.com/thumbnail?id=1ixS5X6Y2Zvu0owjucv04X33-KDXziwE4"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/master.css">
     @yield('CSS')
     <title>
         @yield('title')
@@ -61,33 +62,3 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 @yield('JS')
-
-
-<style>
-    #navbarSupportedContent{
-        margin-left: 50%;
-    }
-    body{
-        background-color:#060709;
-    }
-    #nav-menu{
-        background-color:#060709;
-        color:white;
-    }
-    #servicedetalle{
-        background-color:#212529;
-        color:white;
-    }
-    #servicedetalle > li > a{
-        background-color:#212529;
-        color:white;
-    }
-    #servicedetalle > li > a:hover{
-        background-color:#212529;
-        color:#d2d2d2;
-    }
-    #imgicondamian{
-        width: 120px;
-        height: 40px;
-    }
-</style>

@@ -1,0 +1,22 @@
+#footer{
+    width: 100%;
+    margin-top:5%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+#iconfooter{
+    width: 120px;
+    height: 60px;
+    margin-left: 50%;
+    margin-top: 2%;
+}
+#container-redes{
+    margin-left: 50%;
+    margin-top: 2%;
+}
+#contact-footer{
+    margin-left: 45%;
+    margin-top: 2%;
+    color:#ffffff;
+}
