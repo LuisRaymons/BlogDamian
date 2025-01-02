@@ -8,15 +8,17 @@
 #iconfooter{
     width: 120px;
     height: 60px;
-    margin-left: 50%;
+    margin-left: calc(30%);
     margin-top: 2%;
 }
 #container-redes{
-    margin-left: 50%;
+    margin-left: calc(30%);
     margin-top: 2%;
 }
 #contact-footer{
-    margin-left: 45%;
+    margin-left: calc(25%);
     margin-top: 2%;
     color:#ffffff;
 }
+
+/*Estilos para celulares*/

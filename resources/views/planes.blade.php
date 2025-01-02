@@ -54,15 +54,15 @@
         </nav>
     </div>
     
-    <h3 style="color:#ffffff; font-size:30vh; text-align:center; padding-top:10%;">Nuestros Planes</h3>
-    <p style="color:white;">
+    <h3>Nuestros Planes</h3>
+    <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, numquam quasi. Nemo aspernatur ipsa nam corporis tenetur officia aperiam. Incidunt fugit sed maiores quod quia. Omnis voluptate deserunt quod quas!
     </p>
 </div>
 <div class="container" style="margin-top: 5%;">
     
     <div id="promociones-card">
-        <div class="card bg-dark" style="width: 36rem; margin-right:2%; color:white;">
+        <div class="card bg-dark cardstyle">
             <div class="card-header"> Basico </div>
             <div class="card-body">
                 <h5 class="card-title">$450.00</h5>
@@ -81,7 +81,7 @@
             <div class="card-footer text-muted">Valido asta agotar existencia</div>
         </div>
 
-        <div class="card bg-dark" style="width: 36rem; margin-right:2%; color:white;">
+        <div class="card bg-dark cardstyle">
             <div class="card-header"> Estandar </div>
             <div class="card-body">
                 <h5 class="card-title">$1250.00</h5>

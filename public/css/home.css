@@ -6,6 +6,7 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 5%;
+    pointer-events: none; /*#Evitar descargar imaegen*/
 }
 #nameprincipal{
     color: #ffffff;
@@ -35,6 +36,7 @@
         url("https://drive.google.com/thumbnail?id=1LxbgftHIyXHOxnfSvtVXfnCLwfOEBvTy");
     background-size: cover;
     background-position: center;
+    pointer-events: none;
 }
 #img2principal{
     width: 100%;
@@ -43,6 +45,7 @@
         url("https://drive.google.com/thumbnail?id=1AXZZY0tWc57wopfSD34jrmlq484sGSEd");
     background-size: cover;
     background-position: center;
+    pointer-events: none;
 }
 #img3principal{
     width: 100%;
@@ -51,6 +54,7 @@
         url("https://drive.google.com/thumbnail?id=1NHkbcb9-n-8ii6a2eJaHBtn6dOZZDOow");
     background-size: cover;
     background-position: center;
+    pointer-events: none;
 }
 #img4principal{
     width: 65%;
@@ -59,7 +63,7 @@
     background-repeat: no-repeat;
     background-size: 55.5% 90%;
     background-attachment: fixed;
-    
+    pointer-events: none; /* Evitar que se descargue la imagen*/    
 }
 #img5principal{
     height: 100vh;
@@ -68,6 +72,7 @@
     background-size: 44.5% 90%;
     background-attachment: fixed;
     background-position: right; 
+    pointer-events: none;
 }
 #img6principal{
     height: 100vh;
@@ -76,4 +81,45 @@
     background-size: 55.5% 90%;
     background-attachment: fixed;
     background-position: left;   
+    pointer-events: none;
 }
+
+
+@media screen and (width <=  1080px) {
+    #containerprincipalimagen{
+        width: 10   0%;
+        height: 40vh;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3)),
+            url("https://drive.google.com/thumbnail?id=1hW1vEV7t_NuAHAPC7bhFCcmha9SvDQtP");
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 5%;
+    }
+
+    #nameprincipal{
+        color: #ffffff;
+        font-size: 32px;
+        line-height: 1em;
+    }
+
+    #img3principal{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+            url("https://drive.google.com/thumbnail?id=1NHkbcb9-n-8ii6a2eJaHBtn6dOZZDOow");
+        background-position: right;
+        pointer-events: none;
+    }
+
+    .titulo2{
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 1em;
+    }
+    .p1{
+        color: #ffffff;
+        font-size: 11px;
+        line-height: 1em;
+    }
+}
+

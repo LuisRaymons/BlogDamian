@@ -8,6 +8,7 @@
         <a href="" target="_blank"><i aria-hidden="true" class="fab fa-google-plus-g fa-2xl" style="color: #fafcff;  margin-right:4%;"></i></a>
     </div>
 
-    <p id="contact-footer">+52 1 33 1302 9472 | damianvd01@gmail.com</p>
+    <p id="contact-footer">33 1302 9472 | informes@fotografodamian.com
+    </p>
         
 </div>

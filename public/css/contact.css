@@ -1,9 +1,10 @@
  #img4principal{
         background-image: url("https://drive.google.com/thumbnail?id=1bPeftnoaNJo2Nfsf4skD4VM-nZ9fUmgs");
         width: 100%;
-        height: 90vh;
+        height: 800px;
         background-size: cover;
-        background-position: center;
+        background-position: top;
+        background-size: 100% 100%;
         background-attachment: fixed;
     }
     #navbarSupportedContent{
@@ -32,3 +33,31 @@
         width: 120px;
         height: 40px;
     }
+    h1{
+        color:#ffffff; 
+        font-size:15vh; 
+        text-align:center;
+        padding-top: 15%; 
+    }
+
+
+/*Estilos para celualar*/
+
+@media screen and (width <=  1080px) {
+    #img4principal{
+        background-image: url("https://drive.google.com/thumbnail?id=1bPeftnoaNJo2Nfsf4skD4VM-nZ9fUmgs");
+        width: 100%;
+        height: 800px;
+        background-size: cover;
+        background-position: top;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+
+    h1{
+        color:#ffffff; 
+        font-size:10vh; 
+        text-align:center;
+        padding-top: 35%; 
+    }
+}

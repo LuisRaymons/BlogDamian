@@ -85,3 +85,11 @@ div#slider figure {
     95% { left: -300%; }
     100% { left: -400%; }
 }
+
+/*Estilos para celulares*/
+@media screen and (width <= 1080px) {
+    #imgprincipal{
+        width: 300px;
+        height: 500px;
+    }
+}

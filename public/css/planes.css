@@ -1,42 +1,74 @@
 #img4principal{
-        background-image: url("https://drive.google.com/thumbnail?id=1RB5XUnlpkqXm85qqguk0LAI6fwM3zWWp");
-        width: 100%;
-        height: 90vh;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-    }
-    #navbarSupportedContent{
-        margin-left: 50%;
-    }
-    body{
-        background-color:#060709;
-    }
-    #nav-menu{
-        background-color:#060709;
-        color:white;
-    }
-    #servicedetalle{
-        background-color:#212529;
-        color:white;
-    }
-    #servicedetalle > li > a{
-        background-color:#212529;
-        color:white;
-    }
-    #servicedetalle > li > a:hover{
-        background-color:#212529;
-        color:#d2d2d2;
-    }
-    #imgicondamian{
-        width: 120px;
-        height: 40px;
+    background-image: url("https://drive.google.com/thumbnail?id=1RB5XUnlpkqXm85qqguk0LAI6fwM3zWWp");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    pointer-events: none;
+}
+#navbarSupportedContent{
+    margin-left: 50%;
+}
+body{
+    background-color:#060709;
+}
+#nav-menu{
+    background-color:#060709;
+    color:white;
+}
+#servicedetalle{
+    background-color:#212529;
+    color:white;
+}
+#servicedetalle > li > a{
+    background-color:#212529;
+    color:white;
+}
+#servicedetalle > li > a:hover{
+    background-color:#212529;
+    color:#d2d2d2;
+}
+#imgicondamian{
+    width: 120px;
+    height: 40px;
+}
+#promociones-card{
+    display: flex;
+    align-items: flex-end;
+}
+.elementor-icon-list-item{
+    list-style: none;
+}
+
+h3{
+    color:#ffffff; 
+    font-size:calc(1.5rem + 3vw); 
+    text-align:center; 
+    padding-top: calc(20%);
+}
+
+p{
+    color:white;
+}
+.cardstyle{
+    width: 36rem; 
+    margin-right:2%; 
+    color:white;
+}
+
+/*Estilos para celulares*/
+@media screen and (width <=  1080px) {
+    #promociones-card{
+        display: block;
     }
 
-    #promociones-card{
-        display: flex;
-        align-items: flex-end;
+    .cardstyle{
+        width: 27rem; 
+        margin-right:2%; 
+        color:white;
+        margin-bottom: 5%;
     }
-    .elementor-icon-list-item{
-        list-style: none;
-    }
+}
+
+

@@ -53,17 +53,19 @@
             </div>
         </nav>
     </div>
+    <h1>Contactanos</h1>
     
-    <h1 style="color:#ffffff; font-size:30vh; text-align:center; padding-top:10%;">Contactanos</h1>
 </div>
-<div class="container" style="margin-top: 5%;">
+<div class="container">
+    
+
     <div class="row">
         <div class="col">
             <div class="card" style="background-color:black; color:white;">
                 <div class="card-body" style="text-align:center;">
                     <i class="fa-solid fa-envelope fa-2xl" style="margin-bottom:10%;"></i>
                     <h5 class="card-title">Correo</h5>
-                    <p class="card-text">damianvd01@gmail.com</p>
+                    <p class="card-text">informes@fotografodamian.com</p>
                 </div>
             </div>
         </div>
