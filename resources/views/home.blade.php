@@ -27,10 +27,8 @@
             </p>
         </div>
         <div class="col">
-            <img src="https://drive.google.com/thumbnail?id=19MB1usrteXbyUem1MTwcvMjjhfVOI-qf" alt="No se encontro la imagen" width="90%" height="90%" id="imgboda1"/>
-        </div>
-        <div class="col">
-            <img src="https://drive.google.com/thumbnail?id=1DbNekU4t4GLbHZ056Sn0_36zFDNOg7ul" alt="No se encontro la imagen" width="90%"  height="90%" id="imgboda2"/>
+            <img src="https://drive.google.com/thumbnail?id=19MB1usrteXbyUem1MTwcvMjjhfVOI-qf" alt="No se encontro la imagen" id="imgboda1" style="margin-left:4px;"/>
+            <img src="https://drive.google.com/thumbnail?id=1DbNekU4t4GLbHZ056Sn0_36zFDNOg7ul" alt="No se encontro la imagen" id="imgboda2"/>
         </div> 
     </div>
 

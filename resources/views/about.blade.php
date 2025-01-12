@@ -57,13 +57,13 @@
 
         <div class="row">
             <div class="col">
-                <h5>Lo mejor</h5>
+                <h5>Hola mi nombre es Damian</h5>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, consequatur rerum vero, ab quis amet tempora, quidem voluptas necessitatibus ex fugiat ratione quia labore. Unde earum eos eaque corporis atque.
+                    Soy Fotógrafo profesional apasionado por capturar momentos únicos, en tierra y desde las alturas. Ya sea para eventos, retratos o paisajes, mi objetivo es contar tu historia de forma creativa y hermosa. Cada imagen es una obra de arte.
                 </p>
             </div>
             <div class="col">
-                <img src="https://drive.google.com/thumbnail?id=1FRTr9bIeYzB7jR0PClagC_-bj-Fvzrcy" alt="No se encontro la imagen" id="imgprincipal">
+                <img src="img/img/acercaprincipal2.jpg" alt="No se encontro la imagen" id="imgprincipal">
             </div>
         </div>
 
@@ -71,12 +71,17 @@
             <h4 id="title-proyect">Nuestros proyectos</h4>
             <div id="slider">
                     <figure>
-                        <img src="https://drive.google.com/thumbnail?id=1lJxHpYLGBMHF28L3VfcvXtiZVlv49G5s" alt="" class="carouselabout">
-                        <img src="https://drive.google.com/thumbnail?id=1qCRqOtz_CP4_CFC5acGN9EJbovjYmwqx" alt="" class="carouselabout">
-                        <img src="https://drive.google.com/thumbnail?id=1l0nB_XcEW1UPzTwMQC38zC6HDMkO_E7V" alt="" class="carouselabout">
-                        <img src="https://drive.google.com/thumbnail?id=1sUhZYPQEqjamUDYpJbOGVOPctWU3C-Ok" alt="" class="carouselabout">
-                        <img src="https://drive.google.com/thumbnail?id=1bPeftnoaNJo2Nfsf4skD4VM-nZ9fUmgs" alt="" class="carouselabout">
-                        <img src="https://drive.google.com/thumbnail?id=1YxLMNocKgzmPp0NmURzmcxOeJkno3kxL" alt="" class="carouselabout">
+                        <img src="img/img/slider/slider1.jpg" alt="" class="carouselabout">
+                        <img src="img/img/slider/slider2.jpg" alt="" class="carouselabout">
+
+                        <img src="img/img/slider/slider3.jpg" alt="" class="carouselabout">
+                        <img src="img/img/slider/slider1.jpg" alt="" class="carouselabout">
+
+                        <img src="img/img/slider/slider2.jpg" alt="" class="carouselabout">
+                        <img src="img/img/slider/slider1.jpg" alt="" class="carouselabout">
+
+
+                
                     </figure>
                 </div>
         </div>

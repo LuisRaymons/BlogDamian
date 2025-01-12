@@ -73,7 +73,7 @@
             <div class="card" style="background-color:black; color:white;">
                 <div class="card-body" style="text-align:center;">
                 <i class="fa-solid fa-phone-volume fa-2xl" style="margin-bottom:10%;"></i>
-                    <h5 class="card-title">Telefono</h5>
+                    <h5 class="card-title">Teléfono</h5>
                     <p class="card-text">3313029472</p>
                 </div>
             </div>
@@ -82,7 +82,7 @@
             <div class="card" style="background-color:black; color:white;">
                 <div class="card-body" style="text-align:center;">
                     <i class="fa-solid fa-map-location-dot fa-2xl" style="margin-bottom:10%;"></i>
-                    <h5 class="card-title">Ubicacion</h5>
+                    <h5 class="card-title">Ubicación</h5>
                     <p class="card-text">Guadalajara Jalisco</p>
                 </div>
             </div>
@@ -105,20 +105,21 @@
                     <input type="email" class="form-control" id="inputEmail4">
                 </div>   
                 <div class="col-md-12">
-                    <label for="inputEmail4" class="form-label" style="color:#ffffff;">Telefono</label>
+                    <label for="inputEmail4" class="form-label" style="color:#ffffff;">Teléfono</label>
                     <input type="phone" class="form-control" id="inputEmail4">
                 </div>     
                 <div class="col-md-12">
                     <label for="inputEmail4" class="form-label" style="color:#ffffff;">Tipo de paquete</label>
                     <select name="paquetepromo" class="form-control" id="paquetepromo">
                         <option value="">Seleccione una opcion de paquete</option>
-                        <option value="basic">Basico</option>
-                        <option value="standar">Estandar</option>
+                        <option value="xvpaquete1">XV AÑOS. PAQUETE 1</option>
+                        <option value="xvpaquete2">XV AÑOS. PAQUETE 2</option>
+                        <option value="xvpaquete3">XV AÑOS. PAQUETE 3</option>
                     </select>
                 </div>            
                 <div class="col-md-12">
                     <label for="inputPassword4" class="form-label" style="color:#ffffff;">Comentario</label>
-                    <textarea class="form-control" name="commentarioname" id="commentarioname"  rows="10"></textarea>
+                    <textarea class="form-control" name="commentarioname" id="commentarioname" rows="8"></textarea>
                 </div>
 
                 <button type="button" class="btn btn-outline-primary btn-lg">Enviar mensaje</button>
@@ -138,11 +139,14 @@
     $(document).ready(function (e) {
         var urlactual = window.location.search;
 
-        if(urlactual == "?paquete=basico"){
-            $('select').val('basic');
+        if(urlactual == "?paquete=xvpaquete1"){
+            $('select').val('xvpaquete1');
             desplazarformulario();
-        } else if(urlactual == "?paquete=estandar"){
-            $('select').val('standar');
+        } else if(urlactual == "?paquete=xvpaquete2"){
+            $('select').val('xvpaquete2');
+            desplazarformulario();
+        } else if(urlactual == "?paquete=xvpaquete3"){
+            $('select').val('xvpaquete3');
             desplazarformulario();
         }
     });
