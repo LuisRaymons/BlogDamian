@@ -1,12 +1,11 @@
 @extends('master')
 @section('CSS')
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
 <link rel="stylesheet" href="../css/home.css">
 @stop
-@section('title','Fotografía Damian')
+@section('title','Contacto')
 @section('content')
 
-<div class="container" loading=”lazy” id="divprincipal">
+<div class="container" id="containerimagenhomeprincipal">
     <div class="row">
         <div class="col">
             <h1 id="nameprincipal">Fotografía Damian</h1>
@@ -14,11 +13,14 @@
                 Mas acerca de mi
             </a>
         </div>
-        <div class="col" id="containerprincipalimagen">
+
+        <div class="col">
+            <img src="../img/img/imgprincipal1.jpg" alt="" srcset="" id="imgprincipal1">
         </div>
+        
     </div>
 
-    <div class="row">
+    <div class="row" id="fotografiaboda">
         <div class="col">
             <h2 class="titulo2">Fotografias para bodas</h2>
             <p class="p1">
@@ -27,7 +29,7 @@
             </p>
         </div>
         <div class="col">
-            <img src="https://drive.google.com/thumbnail?id=19MB1usrteXbyUem1MTwcvMjjhfVOI-qf" alt="No se encontro la imagen" id="imgboda1" style="margin-left:4px;"/>
+            <img src="https://drive.google.com/thumbnail?id=19MB1usrteXbyUem1MTwcvMjjhfVOI-qf" alt="No se encontro la imagen" id="imgboda1"/>
             <img src="https://drive.google.com/thumbnail?id=1DbNekU4t4GLbHZ056Sn0_36zFDNOg7ul" alt="No se encontro la imagen" id="imgboda2"/>
         </div> 
     </div>
@@ -82,16 +84,10 @@
         </div>
     </div>
 
+    
 </div>
 
+
 @include('footer')
-
-<style>
-    .test {
-        background-color: red;
-    }
-</style>
-
-
 
 @endsection

@@ -1,25 +1,58 @@
-    #navbarSupportedContent{
-        margin-left: 50%;
+.nav-item > a{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+body{
+    background-color:#060709;
+}
+
+li > a{
+    color:white;
+}
+
+li > a:hover{
+    color: darkgray !important;
+}
+#servicedetalle{
+    background-color:#212529;
+    color:white;
+}
+#servicedetalle > li > a{
+    background-color:#212529;
+    color:white;
+}
+#servicedetalle > li > a:hover{
+    background-color:#212529;
+    color:#c0c0c0;
+}
+#imgicondamian{
+    height: 40px;
+}
+
+.active{
+    color: gray !important;
+}
+
+#navbarSupportedContent{
+    margin-left: 50%;
+}
+
+@media screen and (width <=  1080px) {
+    #btntoggle{
+        background-color:#fbfdff;
     }
-    body{
-        background-color:#060709;
+
+    .nav-item{
+        background-color:black;
     }
-    #nav-menu{
-        background-color:#060709;
-        color:white;
+
+    .nav-item > a{
+        color: white;
+        font-size: 22px;
     }
-    #servicedetalle{
-        background-color:#212529;
-        color:white;
+
+    li > a{
+        color:gray;
     }
-    #servicedetalle > li > a{
-        background-color:#212529;
-        color:white;
-    }
-    #servicedetalle > li > a:hover{
-        background-color:#212529;
-        color:#d2d2d2;
-    }
-    #imgicondamian{
-        height: 40px;
-    }
+}

@@ -1,17 +1,16 @@
-#containerprincipalimagen{
-    width: 100%;
-    height: 100vh;
-    background-image: url("../img/img/imgprincipal1.jpg");
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 5%;
-    pointer-events: none; /*#Evitar descargar imaegen*/
+#imgprincipal1{
+    width:100%;
+    height:100%;
+    margin-top: 10%;
 }
+
 #nameprincipal{
     color: #ffffff;
-    font-size: 72px;
+    font-size: 92px;
     line-height: 1em;
+    margin-top: 10%;
 }
+
 .titulo2{
     color: #ffffff;
     font-size: 50px;
@@ -24,12 +23,18 @@
     line-height: 1em;
     margin-top: 3%;
 }
+
+#fotografiaboda{
+    margin-top: 10%;
+}
+
 #imgboda1:hover{
     -webkit-transform:scale(1.3);transform:scale(1.3);
 }
 #imgboda2:hover{
     -webkit-transform:scale(1.3);transform:scale(1.3);
 }
+
 #img1principal{
     background-image: url("../img/img/quinceprincipal.jpg");
     background-size: cover;
@@ -37,10 +42,6 @@
     pointer-events: none;
 }
 #img2principal{
-    /*
-    width: 100%;
-    height: 100vh;
-    */
     height: 100vh;
     background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
         url("../img/img/profesionalprincipal.jpg");
@@ -55,6 +56,7 @@
     background-position: center;
     pointer-events: none;
 }
+
 #img4principal{
     height: 100vh;
     background-image: url("../img/img/captusprincipal1.jpg");
@@ -81,7 +83,6 @@
     background-position: left;   
     margin-top: 2%;
 }
-
 
 @media screen and (width <=  1080px) {
     #containerprincipalimagen{
@@ -120,4 +121,3 @@
         line-height: 1em;
     }
 }
-

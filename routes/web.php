@@ -19,4 +19,12 @@ Route::get('/servicios', [PrincipalController::class, 'services']);
 Route::get('/acerca', [PrincipalController::class, 'about']);
 Route::get('/portafolio', [PrincipalController::class, 'portfolio']);
 Route::get('/contacto', [PrincipalController::class, 'contact']);
+
+Route::get('/xvpaquete1', [PrincipalController::class, 'paquete1xv']);
+Route::get('/xvpaquete2', [PrincipalController::class, 'paquete2xv']);
+Route::get('/xvpaquete3', [PrincipalController::class, 'paquete3xv']);
+
+
 Route::get('/planes', [PrincipalController::class, 'plans']);
+
+Route::post('/EnviarCorreo', [PrincipalController::class, 'enviocorreo']);

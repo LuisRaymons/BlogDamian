@@ -1,0 +1,44 @@
+#containerimagenxvpaqueteprincipal{
+    background-image:  url("../img/img/parejacontacto.jpg");
+    width: 100%;
+    height: 180vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#promociones-card{
+    margin-left: calc(30%);
+    padding-top: 5%;
+}
+
+h3{
+    color:#ffffff; 
+    font-size:calc(1.5rem + 3vw); 
+    text-align:center; 
+    padding-top: calc(20%);
+}
+
+p{
+    color:white;
+}
+.cardstyle{
+    width: 36rem; 
+    margin-right:2%; 
+    color:white;
+}
+
+
+@media screen and (width <=  1080px){
+    #containerimagenxvpaqueteprincipal{
+        width: 100%;
+        height:150vh;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .cardstyle{
+        width: 16rem; 
+        margin-right:2%; 
+        color:white;
+    }
+}
